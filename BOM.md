@@ -30,7 +30,7 @@
 | [Worldsemi WS2812B-2020-V6](https://www.lcsc.com/product-detail/C52917434.html) | addressable RGB LEDs | 128 | $0.07 | $8.96 | [LCSC](https://www.lcsc.com/product-detail/C52917434.html) |
 | [Mean Well GST18A05-P1J](https://sc-b.digikeyassets.com/en/products/detail/mean-well-usa-inc/GST18A05-P1J/7703604) | external regulated 5 V, 3 A supply | 1 | $14.10 | $14.10 | [DigiKey](https://sc-b.digikeyassets.com/en/products/detail/mean-well-usa-inc/GST18A05-P1J/7703604) |
 | **Parts subtotal** | — | — | — | **$64.05** | — |
-| **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$64.05** | — |
+| **Tax & shipping** | — | — | — | **$35.95** | — |
+| **Total** | — | — | — | **$100.00** | — |
 
-$35.95 left of the tier's funding.
+$0.00 left of the tier's funding.
