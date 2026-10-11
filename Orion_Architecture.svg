@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="1200" height="760" fill="#fbfcfe"/>
+<text x="600" y="42" font-family="Arial" font-size="28" text-anchor="middle" fill="#152238" font-weight="bold">ORION — Draft Electronics Architecture</text>
+<text x="600" y="70" font-family="Arial" font-size="14" text-anchor="middle" fill="#53657d">Block-level overview only — not an electrically verified schematic</text>
+<g font-family="Arial" fill="#152238" stroke="#62758b" stroke-width="2">
+<rect x="440" y="110" width="320" height="105" rx="12" fill="#e7efff"/><text x="600" y="145" font-size="20" text-anchor="middle" stroke="none" font-weight="bold">Raspberry Pi Pico</text><text x="600" y="173" font-size="14" text-anchor="middle" stroke="none">USB HID / firmware / GPIO</text><text x="600" y="194" font-size="13" text-anchor="middle" stroke="none">GP4 SDA · GP5 SCL · GP16 RGB</text>
+<rect x="70" y="300" width="290" height="110" rx="12" fill="#e8f8ee"/><text x="215" y="335" font-size="19" text-anchor="middle" stroke="none" font-weight="bold">MCP23017 #1</text><text x="215" y="361" font-size="14" text-anchor="middle" stroke="none">COL0–COL7</text><text x="215" y="383" font-size="13" text-anchor="middle" stroke="none">I²C address intended: 0x20</text>
+<rect x="455" y="300" width="290" height="110" rx="12" fill="#e8f8ee"/><text x="600" y="335" font-size="19" text-anchor="middle" stroke="none" font-weight="bold">MCP23017 #2</text><text x="600" y="361" font-size="14" text-anchor="middle" stroke="none">COL8–COL15</text><text x="600" y="383" font-size="13" text-anchor="middle" stroke="none">I²C address intended: 0x21</text>
+<rect x="840" y="300" width="290" height="110" rx="12" fill="#fff2db"/><text x="985" y="335" font-size="19" text-anchor="middle" stroke="none" font-weight="bold">I²C OLED</text><text x="985" y="361" font-size="14" text-anchor="middle" stroke="none">SSD1306 128×64</text><text x="985" y="383" font-size="13" text-anchor="middle" stroke="none">Address to verify</text>
+<rect x="70" y="515" width="290" height="100" rx="12" fill="#f1eaff"/><text x="215" y="548" font-size="19" text-anchor="middle" stroke="none" font-weight="bold">8 × 16 Key Matrix</text><text x="215" y="575" font-size="14" text-anchor="middle" stroke="none">Rows GP6–GP13</text><text x="215" y="596" font-size="13" text-anchor="middle" stroke="none">1 diode per installed key</text>
+<rect x="455" y="515" width="290" height="100" rx="12" fill="#f1eaff"/><text x="600" y="548" font-size="19" text-anchor="middle" stroke="none" font-weight="bold">Joystick + Encoder</text><text x="600" y="575" font-size="14" text-anchor="middle" stroke="none">ADC GP26/GP27</text><text x="600" y="596" font-size="13" text-anchor="middle" stroke="none">Buttons and encoder GP14/15/22</text>
+<rect x="840" y="515" width="290" height="100" rx="12" fill="#ffe8e8"/><text x="985" y="548" font-size="19" text-anchor="middle" stroke="none" font-weight="bold">RGB Power + Data</text><text x="985" y="575" font-size="14" text-anchor="middle" stroke="none">External protected 5 V</text><text x="985" y="596" font-size="13" text-anchor="middle" stroke="none">74AHCT125 → 330 Ω → DIN</text>
+</g>
+<g stroke="#2d78b7" stroke-width="3" fill="none">
+<path d="M520 215 L520 255 L215 255 L215 300"/><path d="M600 215 L600 300"/><path d="M680 215 L680 255 L985 255 L985 300"/>
+<path d="M215 410 L215 470 L215 515"/><path d="M600 410 L600 515"/><path d="M760 165 L820 165 L820 470 L985 470 L985 515"/>
+</g>
+<g font-family="Arial" font-size="13" fill="#2d78b7">
+<text x="350" y="247">I²C</text><text x="620" y="248">I²C</text><text x="800" y="247">I²C</text><text x="232" y="457">ROW/COL</text><text x="780" y="458">RGB data</text>
+</g>
+<text x="600" y="700" font-family="Arial" font-size="14" text-anchor="middle" fill="#8a2d2d">Power rails, pin-level wiring, footprints, and PCB routing still require verification.</text>
+</svg>

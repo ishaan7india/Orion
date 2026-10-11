@@ -1,0 +1,20 @@
+﻿Item,Component,Quantity,Exactness_from_source,Reference_from_source,Engineering_notes
+1,Raspberry Pi Pico,1,Compatible,raspberry-pi-pico,Main controller; confirm exact Pico variant and footprint
+2,MCP23017-E/SO 16-bit I2C GPIO expander,1,Generic,,First expander reads COL0-COL7; SOIC-28 footprint
+3,MCP23017-E/SO 16-bit I2C GPIO expander,1,Generic,,Second expander reads COL8-COL15; SOIC-28 footprint
+4,0.96 inch 128x64 SSD1306 I2C OLED module,1,Generic,,3.3 V I2C module; connector/footprint depends on chosen module
+5,RKJXV1224005 dual-axis analog joystick with push switch,1,Generic,,"Verify manufacturer datasheet, pinout and mechanical mounting"
+6,Bourns PEC11R-4215F-S0024 incremental rotary encoder,1,Generic,,Detented encoder with push switch; verify exact pinout
+7,74AHCT125D quad buffer level shifter,1,Generic,,5 V-powered logic buffer for RGB data
+8,WS2812B-2020-V6 addressable RGB LED,128,Generic,,Per-key/underglow chain; verify package land pattern and LED current
+9,Locking 2-pin 5 V RGB power input connector,1,Generic,,External regulated 5 V RGB supply; select exact connector and current rating
+10,Littelfuse 1812L300/33DR resettable fuse,1,Generic,,3 A resettable fuse in series with RGB supply; verify hold/trip curves
+11,1000 uF 10 V low-ESR electrolytic capacitor,1,Generic,,Bulk capacitor across RGB 5 V and GND; check polarity and footprint
+12,4.7 kOhm 1% I2C pull-up resistor,2,Generic,,One for SDA and one for SCL; verify module pull-ups to avoid excessive parallel pull-ups
+13,"8-row x 16-column mechanical-key matrix, 128 positions",1,Generic,,MX-compatible switch positions; physical layout and footprint still to be finalized
+14,2x12 2.54 mm auxiliary matrix/control board connector,1,Generic,,Optional detachable connector carrying 8 rows + 16 columns; connector pin assignment required
+15,1N4148W SOD-123 keyboard matrix diode,127,Generic,,One per installed switch; PDF specifies row-side anode to column-side cathode
+16,330 ohm RGB data series resistor,1,Generic,,Series with first LED DIN; place close to first LED/data input
+17,100 nF 16 V X7R ceramic decoupling capacitor,4,Generic,,Local decoupling near logic ICs/display connector as applicable
+18,100 nF 16 V X7R RGB LED decoupling capacitor,128,Generic,,One per LED if following source BOM; verify feasibility/placement for 2020 LED footprint
+19,10 kOhm 4-resistor isolated array,1,Generic,,Holds three unused 74AHCT125 output-enable pins high; confirm exact array pinout/footprint

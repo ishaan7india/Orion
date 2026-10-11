@@ -1,0 +1,19 @@
+﻿From,Pin_or_net,To,Signal_type,Review_note
+Pico,3V3(OUT),MCP23017 #1 VDD,3.3 V,Confirm exact symbol pin; add local 100 nF decoupling
+Pico,GND,MCP23017 #1 VSS,GND,Common ground
+Pico,GP4/SDA,MCP23017 #1 SDA; MCP23017 #2 SDA; OLED SDA,I2C,Shared bus; verify all device pull-ups and addresses
+Pico,GP5/SCL,MCP23017 #1 SCL; MCP23017 #2 SCL; OLED SCL,I2C,Shared bus; verify bus voltage and pull-ups
+MCP23017 #1,A0/A1/A2,GND/GND/GND,Address 0x20,As stated in the connection table
+MCP23017 #2,A0/A1/A2,3V3/GND/GND,Address 0x21,As stated in the connection table
+Pico,GP6-GP13,ROW0-ROW7,Matrix,Row scan; firmware polarity must match diode orientation
+MCP23017 #1,GPA0-GPA7,COL0-COL7,Matrix,Check GPIO direction and pull-ups in firmware
+MCP23017 #2,GPA0-GPA7,COL8-COL15,Matrix,Check GPIO direction and pull-ups in firmware
+Pico,GP26/ADC0,Joystick VRx,Analog,Confirm joystick output range stays within 0-3.3 V
+Pico,GP27/ADC1,Joystick VRy,Analog,Confirm joystick output range stays within 0-3.3 V
+Pico,GP22,Joystick SW,Digital,Debounce in firmware
+Pico,GP14/GP15,Encoder A/B,Digital,Confirm encoder common terminal to GND and use suitable pull-ups
+Pico,GP16,74AHCT125 1A,RGB data,3.3 V signal into 5 V AHCT buffer
+74AHCT125,1Y,330 ohm resistor -> first WS2812 DIN,RGB data,Buffer VCC to external protected 5 V; GND common
+External RGB 5 V,Connector +,Resettable fuse -> LED +5 V rail,Power,Do not connect external 5 V to Pico 3V3; prevent USB back-feed
+External RGB supply,GND,Pico GND and LED GND,Ground,Common reference required for data signal
+LED rail,+5 V/GND,1000 uF capacitor,Bulk decoupling,Observe electrolytic polarity; place near power injection
