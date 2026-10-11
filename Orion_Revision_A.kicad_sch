@@ -1,0 +1,8 @@
+(kicad_sch (version 20250114) (generator "eeschema")
+  (uuid "4b744678-d6b5-4c9c-9f25-11e6edbe4a01")
+  (paper "A3")
+  (lib_symbols)
+  (text "ORION — Revision A electrical capture package\n\nThe accompanying Orion_Revision_A.net is the pin-level KiCad legacy XML netlist. It includes 543 components, 441 named nets, all 127 matrix switch/diode positions, two MCP23017s, the Pico signal map, and the 128-LED chain. Import the netlist into PCB Editor or use it as the connection source for placing full library symbols in Eeschema." (at 35 35 0) (effects (font (size 2.2 2.2)) (justify left top)))
+  (text "SOURCE: uploaded Pasted text.txt\nMATRIX: 8 x 16, 127 populated; ROW4/COL13 empty\nPOWER: +3V3 logic; separate RGB_5V_IN -> F1 -> RGB_5V; common GND\nI2C: GP4 SDA / GP5 SCL; MCP23017 addresses 0x20 and 0x21\nRGB: GP16 -> 74AHCT125 -> 330R -> 128 WS2812B DIN chain\nOPEN: reconcile earlier 114-key/10x12 draft; confirm footprints and power/current\nSTATUS: no ERC/DRC; PCB starter contains no footprints or routing" (at 35 70 0) (effects (font (size 1.5 1.5)) (justify left top)))
+  (embedded_fonts no)
+)
