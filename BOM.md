@@ -18,7 +18,6 @@
 | [SSD1306 128×64 I²C OLED module, MDOB128064V2V-WI](https://www.digikey.com/en/products/detail/midas-displays/MDOB128064V2V-WI/20841734) | display | 1 | $12.30 | $12.30 | [DigiKey](https://www.digikey.com/en/products/detail/midas-displays/MDOB128064V2V-WI/20841734) |
 | [ALPS RKJXV1224005](https://www.lcsc.com/product-detail/C146170.html) | joystick | 1 | $1.21 | $1.21 | [LCSC](https://www.lcsc.com/product-detail/C146170.html) |
 | [Bourns PEC11R-4215F-S0024](https://www.digikey.com/en/products/detail/bourns-inc/PEC11R-4215F-S0024/4499665) | rotary encoder with push switch | 1 | $2.95 | $2.95 | [DigiKey](https://www.digikey.com/en/products/detail/bourns-inc/PEC11R-4215F-S0024/4499665) |
-| [Cherry MX2A-71NN](https://www.digikey.com/en/products/detail/cherry-americas-llc/MX2A-71NN/21738450) | red-stem keyswitches | 127 | $1.95 | $247.65 | [DigiKey](https://www.digikey.com/en/products/detail/cherry-americas-llc/MX2A-71NN/21738450) |
 | [Diodes Inc. 1N4148W-7-F](https://www.digikey.com/en/products/detail/diodes-incorporated/1N4148W-7-F/815280) | one matrix diode per key | 127 | $0.07 | $8.89 | [DigiKey](https://www.digikey.com/en/products/detail/diodes-incorporated/1N4148W-7-F/815280) |
 | [Sullins PEC14DAAN, 2×14 28-position header](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PEC14DAAN/860605) | matrix interconnect | 1 | $1.80 | $1.80 | [DigiKey](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PEC14DAAN/860605) |
 | [4.7 kΩ 0603 resistor](https://www.digikey.com/en/products/detail/walsin-technology-corporation/WR06X4701FTL/13240840) | I²C pull-ups | 2 | $0.02 | $0.04 | [DigiKey](https://www.digikey.com/en/products/detail/walsin-technology-corporation/WR06X4701FTL/13240840) |
@@ -30,8 +29,8 @@
 | [Yageo RC0603FR-07330RL](https://www.digikey.com/en/products/detail/yageo/RC0603FR-07330RL/727162) | 330 Ω RGB data resistor | 1 | $0.10 | $0.10 | [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-07330RL/727162) |
 | [Worldsemi WS2812B-2020-V6](https://www.lcsc.com/product-detail/C52917434.html) | addressable RGB LEDs | 128 | $0.07 | $8.96 | [LCSC](https://www.lcsc.com/product-detail/C52917434.html) |
 | [Mean Well GST18A05-P1J](https://sc-b.digikeyassets.com/en/products/detail/mean-well-usa-inc/GST18A05-P1J/7703604) | external regulated 5 V, 3 A supply | 1 | $14.10 | $14.10 | [DigiKey](https://sc-b.digikeyassets.com/en/products/detail/mean-well-usa-inc/GST18A05-P1J/7703604) |
-| **Parts subtotal** | — | — | — | **$311.70** | — |
+| **Parts subtotal** | — | — | — | **$64.05** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$311.70** | — |
+| **Total** | — | — | — | **$64.05** | — |
 
-**$211.70 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+$35.95 left of the tier's funding.
